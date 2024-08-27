@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+    <title>Home</title>
+
+    <style>
+        body {
+            font-family: "Poppins", sans-serif;
+            margin: 0;
+            background-color: #faf9f6;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+            padding-top: 60px;
+        }
+        
+        nav {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            background-color: #333;
+            color: white;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+            z-index: 1000;
+            transition: background-color 0.3s, color 0.3s;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+        }
+        
+        nav li {
+            margin: 0 1rem;
+        }
+        
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        
+        nav a:hover {
+            color: #ff9900;
+        }
+        
+        .main {
+            flex: 1;
+        }
+        
+        h1 {
+            font-size: 5rem;
+        }
+        
+        footer {
+            text-align: right;
+            color: midnightblue;
+            margin: 2rem;
+        }
+        
+        img {
+            float: left;
+        }
+        
+        .card {
+            width: 45%;
+            margin: 1rem;
+        }
+        
+        .left {
+            float: left;
+        }
+        
+        .right {
+            float: right;
+        }
+        
+        .tile-image {
+            margin-right: 50px;
+            height: 200px;
+            float: left;
+        }
+        
+        .creative {
+            color: midnightblue;
+        }
+        
+        .logo {
+            width: 100px;
+        }
+        
+        @media (max-width: 680px) {
+            h1 {
+                font-size: 3.5rem;
+            }
+            body {
+                font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+                background-color: aliceblue;
+            }
+            .card {
+                width: 100%;
+            }
+        }
+        
+        nav.scrolled {
+            background-color: #222;
+            color: #ff9900;
+        }
+    </style>
+
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="service.html">Services</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+    <h1>Services</h1>
+    <ul>
+        <li> Website Design </li>
+        <li> Follow ups </li>
+        <li> Customer Support </li>
+        <li> 24x7 Services</li>
+    </ul>
+
+</body>
+
+</html>
